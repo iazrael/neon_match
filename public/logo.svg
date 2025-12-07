@@ -1,0 +1,27 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="24" fill="#0f172a"/>
+  <g transform="translate(32, 24)">
+    <!-- Main gem -->
+    <polygon points="32,0 48,24 32,48 16,24" fill="#3b82f6" stroke="#7dd3fc" stroke-width="2"/>
+    <polygon points="32,12 42,24 32,36 22,24" fill="#7dd3fc"/>
+    
+    <!-- Neon glow effect -->
+    <polygon points="32,0 48,24 32,48 16,24" fill="none" stroke="#7dd3fc" stroke-width="1" opacity="0.5">
+      <animate attributeName="stroke-width" values="1;2;1" dur="2s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+  
+  <!-- Decorative gems -->
+  <circle cx="96" cy="24" r="6" fill="#ef4444">
+    <animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="24" cy="104" r="6" fill="#22c55e">
+    <animate attributeName="r" values="5;7;5" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="104" cy="104" r="6" fill="#f97316">
+    <animate attributeName="r" values="5;7;5" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  
+</svg>
